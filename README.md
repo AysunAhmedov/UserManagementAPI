@@ -98,7 +98,12 @@ Java -jar target/UsersCrud-0.0.1-SNAPSHOT.jar
 
  2. Access the Application: 
 
-   	- Open your web browser and navigate to `http://localhost:8080/swagger-ui.html` 	to access the Swagger UI for API documentation and testing. 
+   	- Open your web browser and navigate to `http://localhost:8080/swagger-ui.html` 	to access the Swagger UI for API documentation and testing.
+      
+ 3.Additional Notes
+
+- Ensure that the database credentials in the `application.properties` file are correct.
+- Flyway will automatically run the migration scripts in the `db/migration` directory and will create a "users" table and populate the database with random users data for easier testing.
 
   
 
