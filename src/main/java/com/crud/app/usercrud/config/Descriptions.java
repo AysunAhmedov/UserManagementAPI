@@ -12,17 +12,17 @@ public class Descriptions {
 
     public static final String CREATE_USER = "Creates a user.\n\n" +
             "To successfully create a new user you have to make sure to cover the following criteria.\n\n" +
-            "First name should contain only letters min - 2 ,max - 50.\n\n" +
-            "Last name should contain only letters min - 2,max - 50.\n\n" +
-            "Date of birth should be in format example : 1994-05-30 ,yy-mm-dd.\n\n" +
+            "First name must consist of only letters and be between 2 and 50 characters long.\n\n" +
+            "Last name must consist of only letters and be between 2 and 50 characters long.\n\n" +
+            "Date of birth should be in the past and in the following format: yyyy-mm-dd.\n\n" +
             "Phone number should contain exactly 10 digits and should be unique if there is existing user with the same phone number you will get an error.\n\n" +
             "Email should be a valid email example: aysun@gmail.com and should be unique if there is existing user with the same email you will get an error.";
 
     public static final String UPDATE_USER = "Update a user.\n\n" +
             "To successfully update a user you have to make sure to cover the following criteria.\n\n" +
-            "First name should contain only letters min - 2 ,max - 50.\n\n" +
-            "Last name should contain only letters min - 2,max - 50.\n\n" +
-            "Date of birth should be in format example : 1994-05-30 ,yy-mm-dd.\n\n" +
+            "First name must consist of only letters and be between 2 and 50 characters long.\n\n" +
+            "Last name must consist of only letters and be between 2 and 50 characters long.\n\n" +
+            "Date of birth should be in the past and in the following format: yyyy-mm-dd.\n\n" +
             "Phone number should contain exactly 10 digits and should be unique if there is existing user with the same phone number you will get an error.\n\n" +
             "Email should be a valid email example: aysun@gmail.com and should be unique if there is existing user with the same email you will get an error.";
 
