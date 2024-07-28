@@ -95,7 +95,7 @@ Running the Application
 
 - Double click on the jar file or open terminal and write:  
 
-Java -jar target/UsersCrud-0.0.1-SNAPSHOT.jar 
+    Java -jar target/UsersCrud-0.0.1-SNAPSHOT.jar 
 
  
 
