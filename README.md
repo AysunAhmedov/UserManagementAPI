@@ -4,7 +4,10 @@ Application Startup Instructions
 
 Introduction 
 
-This is a web REST API application using the standard HTTP methods – GET, POST, PUT, DELETE . It is built with Spring Boot with Maven and uses a MySQL database. 
+## Introduction
+
+This is a web REST API application utilizing standard HTTP methods – GET, POST, PUT, DELETE. It is built with Spring Boot and Maven, uses a MySQL database, and incorporates Swagger for API documentation. Additionally, Flyway is used to manage database migrations and generate random data for easier testing.
+ 
 
   
 
