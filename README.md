@@ -66,7 +66,7 @@ Database Setup
 
      - Edit the `src/main/resources/application.properties` file. 
 
-     spring.datasource.url=jdbc:mysql://localhost:3306/(your table name) 
+     spring.datasource.url=jdbc:mysql://localhost:3306/(your database name) 
 
      spring.datasource.username=(your username) 
 
@@ -74,9 +74,15 @@ Database Setup
 
      spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver 
 
-     spring.jpa.hibernate.ddl-auto=update 
+     spring.jpa.hibernate.ddl-auto=none
 
-      
+     spring.flyway.url=jdbc:mysql://localhost:3306/(your database name)
+   
+     spring.flyway.user=(your username) 
+   
+     spring.flyway.password=(your password) 
+
+
 
   
 
