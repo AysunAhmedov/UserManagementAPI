@@ -37,6 +37,12 @@ public class UserService {
 
 public List<UserDTO> getUsers(int pageNo ,int pageSize,String searchTerm)
 {
+    if(pageNo < 0){
+        throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "Invalid page number");
+    }
+    if(pageSize <= 0){
+        throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "Invalid page size");
+    }
     Pageable pageable = PageRequest.of(pageNo,pageSize,(Sort.by(Sort.Direction.ASC, "lastName","dateOfBirth")));
     Page<User> users;
     if(searchTerm == null || searchTerm.trim().isEmpty())

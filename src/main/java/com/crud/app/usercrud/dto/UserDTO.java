@@ -34,6 +34,7 @@ public class UserDTO {
 
 
     @Schema(description = "The e-mail of the user", example = "aysun@gmail.com")
+    @NotBlank(message = "Please provide an E-mail.")
     @Email(message = "Please provide a valid email address.")
     private String emailAddress;
 
