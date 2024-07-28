@@ -43,7 +43,7 @@ Make sure you have the following installed:
 
 2. Build the Project: 
 
-- Open terminal and type:  
+- Open terminal in /UserManagementAPI folder and type:  
 
  		mvn clean package 
 
