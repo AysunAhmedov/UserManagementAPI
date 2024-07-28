@@ -34,7 +34,7 @@ Make sure you have the following installed:
 
 - Open git bash and type :	 
 
- 		 git clone https://github.com/AysunAhmedov/UsersAPI-master.git 
+ 		 git clone https://github.com/AysunAhmedov/UserManagementAPI
 
      
 
