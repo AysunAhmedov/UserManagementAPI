@@ -2,11 +2,16 @@ package com.crud.app.usercrud.config;
 
 public class Descriptions {
 
-    public static final String GET_USERS = "Retrieve a paginated list of users.\n\n" +
-            "Default paging values are: page number = 0, page size = 10.\n\n" +
-            "Optionally, you can filter users by search term. Which can be either first name,last name,phone number or e-mail.\n\n " +
-            "Result is sorted by last name and if there are users with the same last name then by date of birth.\n\n" +
-            "If search term is not provided you will get all users sorted.";
+    public static final String GET_USERS = """
+            Retrieve a paginated list of users.
+
+            Default paging values are: page number = 0, page size = 10.
+
+            Optionally, you can filter users by search term. Which can be either first name,last name,phone number or e-mail.
+
+            Result is sorted by last name and if there are users with the same last name then by date of birth.
+
+            If search term is not provided you will get all users sorted.""";
 
     public static final String GET_USER_BY_ID = "Retrieve a single user by ID";
 
